@@ -1,0 +1,24 @@
+html{
+    font-family: 'Cabin Sketch', cursive;
+}
+h2{
+    color: white;
+    font-size: 96px;
+    margin: 0;
+}
+h3{
+    font-size: 48px;
+}
+.textCon{
+    padding: 0 5vw 0 5vw;
+}
+.flexCon{
+    display: flex;
+}
+#blue{
+    background-color: #0E4595;
+    padding-top: 15vh;
+}
+#gear{
+    width: 33vw;
+}
