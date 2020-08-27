@@ -1,5 +1,6 @@
 html{
     font-family: 'Cabin Sketch', cursive;
+    background-color: #0E4595;
 }
 a{
     text-decoration: none;
@@ -27,7 +28,13 @@ h2{
     margin: 0;
 }
 h3{
-    font-size: 48px;
+    font-size: 3vw;
+}
+.imgflex{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 nav{
     height: 6vh;
@@ -36,6 +43,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 
 }
 .blank2{
@@ -47,10 +55,22 @@ nav{
 .flexCon{
     display: flex;
 }
+.teamImage{
+    padding-top: 10vh;
+    width: 20vw;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font: 48px;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+}
 #blue{
     background-color: #0E4595;
     margin: 0;
-    padding-top: 15vh;
+    padding-top: 5vh;
     height: 80vh;
 }
 #blank{
@@ -58,11 +78,13 @@ nav{
 }
 
 #gear{
-    width: 33vw;
+    width: 30vw;
+    height: 30vw;
+    padding-top: 5vw;
 }
 
 @media (max-width: 1024px){
-    img{
+    #gear{
         display: none;
     }
 }
@@ -72,6 +94,9 @@ nav{
     }
     h3{
         font-size: 28px;
+    }
+    .teamImage{
+        width: 40vw;
     }
     
 }
@@ -87,6 +112,9 @@ nav{
     }
     .temp{
         display: none;
+    }
+    .teamImage{
+        width: 80vw;
     }
 
 }
